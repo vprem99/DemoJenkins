@@ -10,7 +10,7 @@ public class NewTest {
 	@Test
 	public void f() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
-				"D:\\Users\\Premchand\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+				"src/test/resources/drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver(); // parent p=new Child For Starting ChromeDriver browser
 		driver.manage().window().maximize(); // For Maximize browser
 		driver.get("http://selenium.dev");// For Opening Url
